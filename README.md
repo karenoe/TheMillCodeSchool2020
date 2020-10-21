@@ -1,5 +1,5 @@
 # TheMillCodeSchool2020
-Space for my The Mill Code School Project
+Space for The Mill Code School Project
 
 Topic: <br>
   Visual Gratitude List<br>
