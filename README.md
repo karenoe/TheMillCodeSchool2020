@@ -1,14 +1,12 @@
 # TheMillCodeSchool2020
 Space for my The Mill Code School Project
 
-Topics for Mill School site:
+Topic: 
+  Visual Gratitude List
 
-How I invigorated my plate by purchasing a CSA
-Lifelong Learning
-Photography in Daily Life with my phone
-COVID-19 Lifestyle Reboot
-
-Current winner: 
-Capturing a Documented Gratitude List
-I get to ... 
-
+Components: 
+  php to use includes for header, navigation, and footer
+  grid and/or flexbox in CSS for layout
+  a navigation menu that collapses into a responsive mobile-friendly menu
+  media queries so layout goes one column in mobile, two (or image wrapped in text if two columns impractical) in desktop
+  something from Javascript
