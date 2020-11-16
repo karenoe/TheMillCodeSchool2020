@@ -6,16 +6,31 @@
     <!-- link to google fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display&display=swap" rel="stylesheet">
+    <!-- link to font for the hamburger menu -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- link to style-->
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
-<nav>
-<!-- A navigation menu that collapses into a responsive mobile-friendly menu (such as a
-“hamburger” menu) -->
-</nav>
-<h1>I'm Grateful for</h1>
-<p>visual <a href="">representations </a>of the images used in each page that links to the page.</p>
+<div class="content-wrap">
+  <nav>
+    <!-- A navigation menu that collapses into a responsive mobile-friendly menu (such as a
+    “hamburger” menu) -->
+    <!-- Top Navigation Menu https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+  <div class="topnav" id="navigate">
+  <a href="#home" class="active">Home</a>
+  <a href="#page1">page1</a>
+  <a href="#page2">page2</a>
+  <a href="#about">page3</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+  </nav>
+  <header>
+    <h1>I'm Grateful for</h1>
+  </header>
+  <p>visual <a href="">representations </a>of the images used in each page that links to the page.</p>
 
 
 <!-- Create a form that takes in at least two fields of information and validates input (for
@@ -25,4 +40,5 @@ example, it checks to ensure email is the ​ a@b.com​ format -->
 <footer>
 
 </footer>
+</div> <!-- closes content-wrap -->
 </html>
