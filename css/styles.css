@@ -1,3 +1,9 @@
+/*--deep-saffron: #F9911F;
+--xiketic: #1E0909;
+--antique-bronze: #605D07;
+--rufous: #AA2903;
+--honey-yellow: #F9AF1D;*/
+
 html {
   box-sizing: border-box;
 }
@@ -14,7 +20,7 @@ h1 {
   font-weight: 400;
   margin: 0;
   color: #F9911F;
-  font-size: 500px;
+  font-size: 200px;
 }
 img {
   max-width: 400px;
@@ -30,10 +36,21 @@ a:hover {
   color: #F9AF1D;
   border-top: #1E0909 1px dotted;
   border-bottom: #1E0909 1px dotted;
-  decoration: none;
+  text-decoration: none;
 }
 a:active {
   color: #F9AF1D;
+}
+.content-wrap {
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+/* ----sections */
+header {
+  background: #AA2903;
+  color: #F9911F;
 }
 
 
