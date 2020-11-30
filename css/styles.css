@@ -88,6 +88,13 @@ header {
  display: none;
 }
 
+/* css Grid https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids */
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 20px;
+  gap: 20px;
+}
 /*--Desktop over 601 pixels ---*/
 @media screen and (max-width: 600px) {
 
