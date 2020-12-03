@@ -44,7 +44,7 @@ a:active {
 }
 .poemTitle {
   font-weight: bold;
-  border-bottom: 1px solid #F9AF1D;
+  color: #AA2903;
 }
 .content-wrap {
   max-width: 1200px;
