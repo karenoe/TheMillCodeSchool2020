@@ -115,6 +115,9 @@ to a two or more column */
     padding-right:40px;
     padding-bottom: 40px;
   }
+   .divider-wrapper {
+     visibility: hidden;
+   }
 }
 
 /* When the screen is less than 600 pixels wide, hide all navigation links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -139,4 +142,41 @@ to a two or more column */
          display: block;
          text-align: left;
        }
+       /* the fancy divider */
+       .divider-wrapper {
+      	padding-bottom: 90px;
+        }
+        .divider {
+        	position: relative;
+        	margin-top: 90px;
+        	height: 1px;
+        }
+
+        .div-transparent:before
+        {
+        	content: "";
+        	position: absolute;
+        	top: 0;
+        	left: 5%;
+        	right: 5%;
+        	width: 90%;
+        	height: 1px;
+        	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+        }
+
+       .div-dot:after {
+          content: "";
+          position: absolute;
+          z-index: 1;
+        	top: -9px;
+          left: calc(50% - 9px);
+        	width: 18px;
+        	height: 18px;
+        	background-color: #F9911F;
+        	border: 1px solid rgb(48,49,51);
+        	border-radius: 50%;
+        	box-shadow: inset 0 0 0 2px white,
+          					0 0 0 4px white;
+          }
+
 }
