@@ -52,6 +52,9 @@ a:active {
   margin: 0 auto;
   padding: 60px 0;
 }
+.credits {
+  font-size: 9px;
+}
 /* ----sections */
 header {
   background: #AA2903;
