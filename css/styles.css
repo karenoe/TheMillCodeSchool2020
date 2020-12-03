@@ -91,7 +91,7 @@ header {
 
 
 /*--Desktop over 601 pixels ---*/
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 601px) {
   /* css Grid https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids */
   .grid-container {
     display: grid;
