@@ -46,6 +46,10 @@ a:active {
   font-weight: bold;
   color: #AA2903;
 }
+.author {
+  float:right;
+  clear:both;
+}
 .content-wrap {
   max-width: 1200px;
   width: 85%;
