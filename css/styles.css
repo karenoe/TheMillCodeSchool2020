@@ -51,8 +51,6 @@ a:active {
   width: 85%;
   margin: 0 auto;
   padding: 60px 0;
-  background-color: red;
-
 }
 /* ----sections */
 header {
@@ -122,7 +120,7 @@ to a two or more column */
     padding-bottom: 40px;
   }
    .divider-wrapper {
-     visibility: hidden;
+      display: none;
    }
 }
 
