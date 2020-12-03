@@ -24,6 +24,7 @@ h1 {
 }
 img {
   max-width: 400px;
+  float: none;
 }
 a {
   color: #605D07;
@@ -102,6 +103,11 @@ header {
   .grid-item {
     border: 2px solid #F9AF1D;
     padding: 10px;
+  }
+  img {
+    float:left;
+    padding-right:40px;
+    padding-bottom: 40px;
   }
 }
 
