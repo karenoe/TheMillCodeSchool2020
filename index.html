@@ -1,65 +1,64 @@
 <html>
-<head>
-    <meta charset="UTF-8">
-    <!-- viewport code-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- link to google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display&display=swap" rel="stylesheet">
-    <!--end -->
-    <title>My Gratitude List</title>
-    <!-- link to font for the hamburger menu -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- link to JavaScript for menu-->
-    <link rel="JavaScript" href="navigation.js">
-      <!-- link to style-->
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<div class="content-wrap">
+  <head>
+      <meta charset="UTF-8">
+      <!-- viewport code-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- link to google fonts-->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display&display=swap" rel="stylesheet">
+      <!--end -->
+      <title>My Gratitude List</title>
+      <!-- link to font for the hamburger menu -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- link to JavaScript for menu-->
+      <link rel="JavaScript" href="navigation.js">
+        <!-- link to style-->
+      <link rel="stylesheet" href="css/styles.css">
+  </head>
   <nav>
-    <!-- A navigation menu that collapses into a responsive mobile-friendly menu (such as a
-    “hamburger” menu) -->
-    <!-- Top Navigation Menu https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
-  <div class="topnav" id="navigate">
-  <a href="#home" class="active">Home</a>
-  <a href="gold_tree.html">Gold Tree</a>
-  <a href="dog.html">Dog</a>
-  <a href="#about">Guest</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+      <!-- A navigation menu that collapses into a responsive mobile-friendly menu (such as a
+      “hamburger” menu) -->
+      <!-- Top Navigation Menu https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+    <div class="topnav" id="navigate">
+        <a href="index.html" class="active">Home</a>
+        <a href="gold_tree.html">Gold Tree</a>
+        <a href="dog.html">Dog</a>
+        <a href="guest.html">Guest</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i></a>
+    </div>
   </nav>
-  <header>
-    <h1>I'm Grateful for</h1>
-  </header>
-    <!--required Use CSS Grid to rearrange 2 or more content areas on your page as the screen
-changes sizes  -->
-  <p>Introductory words here</p>
-  <aside>
-    <p>Joy is not a constant. It comes to us in moments - often ordinary moments. Sometimes we miss out on the bursts of joy because we're too busy chasing down the extraordinary moments. Other times we're so afraid of the dark we don't dare let ourselves enjoy the light. A joyful life is not a floodlight of joy. That would eventually become unbearable. I believe a joyful life is made up of joyful moments gracefully strung together by trust, gratitude and inspiration
-
-Brené Brown</p>
-  </aside>
-
+  <div class="content-wrap">
+    <header>
+      <h1>I'm Grateful for</h1>
+    </header>
+      <!--required Use CSS Grid to rearrange 2 or more content areas on your page as the screen
+  changes sizes  -->
+    <article>
+      <p>Introductory words here</p>
+    </article>
+    <aside>
+      <p>Joy is not a constant. It comes to us in moments - often ordinary moments. Sometimes we miss out on the bursts of joy because we're too busy chasing down the extraordinary moments. Other times we're so afraid of the dark we don't dare let ourselves enjoy the light. A joyful life is not a floodlight of joy. That would eventually become unbearable. I believe a joyful life is made up of joyful moments gracefully strung together by trust, gratitude and inspiration</p>
+      <p>Brené Brown</p>
+    </aside>
+  </div> <!--end content-wrap-->
 
 <!-- optional Create a form that takes in at least two fields of information and validates input (for
 example, it checks to ensure email is the ​ a@b.com​ format -->
 
 <!-- optional Create and populate a JavaScript array, then retrieve and display one or more values from it -->
-<footer>
+  <footer>
 
-</footer>
-</div> <!-- closes content-wrap -->
-<script>
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-  var x = document.getElementById("navigate");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+  </footer>
+  <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("navigate");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 </html>

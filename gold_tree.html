@@ -16,29 +16,58 @@
   <nav>
     <!-- A navigation menu that collapses into a responsive mobile-friendly menu (such as a
     “hamburger” menu) -->
+    <!-- Top Navigation Menu https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+    <div class="topnav" id="navigate">
+    <a href="index.html">Home</a>
+    <a href="gold_tree.html"  class="active">Gold Tree</a>
+    <a href="dog.html">Dog</a>
+    <a href="guest.html">Guest</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    </div>
   </nav>
-  <div class="pageTitle">
-    <h1>The Gold Tree</h1>
-  </div>
-  <!-- Use CSS Grid to rearrange 2 or more content areas on your page as the screen
-  changes sizes -->
-  <article class="">
-  <p>words and the <img src="images/gold_tree.jpg"/></p>
-  </article>
-  <aside class="">
-    <p>Nothing Gold Can Stay
+  <div class="content-wrap">
+    <div class="pageTitle">
+      <h1>The Gold Tree</h1>
+    </div>
+    <!-- Use CSS Grid to rearrange 2 or more content areas on your page as the screen
+    changes sizes -->
+    <div class="grid-container">
+      <article class="grid-item">
+        <p><img src="images/gold_tree.jpg"/></p>
+        <p>We had a vibrant Autumn with several warm days and cool nights. My city is known for it's trees. While I was looking for items to write about in this project I spied this particular tree. It's gold was luminescent and trunk bark sharply contrasting the almost supernatural glow of the leaves.</p>
+        <p>When I found this poem the vivid color took on a new meaning to me. I absorbed the beauty of this tree while it was in this glorious state. I had no expectation that the next day would allow me even the briefest glimpse of this show.</p>
+        <p>Right now there are beautiful things to observe, but not the gold of that tree. I'm glad I stood in appreciation of that moment, that tree.</p>
+      </article>
+      <aside class="grid-item">
+        <p>Nothing Gold Can Stay</p>
 
-  Nature’s first green is gold,
-  Her hardest hue to hold.
-  Her early leaf’s a flower;
-  But only so an hour.
-  Then leaf subsides to leaf.
-  So Eden sank to grief,
-  So dawn goes down to day.
-  Nothing gold can stay.
+        <p>Nature’s first green is gold,</p>
+        <p>Her hardest hue to hold.</p>
+        <p>Her early leaf’s a flower;</p>
+        <p>But only so an hour.</p>
+        <p>Then leaf subsides to leaf.</p>
+        <p>So Eden sank to grief,</p>
+        <p>So dawn goes down to day.</p>
+        <p>Nothing gold can stay.</p>
 
-  From The Poetry of Robert Frost edited by Edward Connery Lathem. Copyright © 1923, 1947, 1969 by Henry Holt and Company, copyright © 1942, 1951 by Robert Frost, copyright © 1970, 1975 by Lesley Frost Ballantine. Reprinted by permission of Henry Holt and Company, LLC.</p>
-  </aside>
+        <p>From The Poetry of Robert Frost edited by Edward Connery Lathem. Copyright © 1923, 1947, 1969 by Henry Holt and Company, copyright © 1942, 1951 by Robert Frost, copyright © 1970, 1975 by Lesley Frost Ballantine. Reprinted by permission of Henry Holt and Company, LLC.</p>
+      </aside>
+    </div><!--end grid-container-->
+  </div> <!-- end content-wrap-->
   <footer>
+    <p></p>
   </footer>
+  <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("navigate");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 </html>

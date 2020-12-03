@@ -1,33 +1,57 @@
 <html>
   <head>
-      <meta charset="UTF-8">
-      <!-- viewport code-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- link to google fonts-->
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display&display=swap" rel="stylesheet">
-      <title>Guest</title>
+    <meta charset="UTF-8">
+    <!-- viewport code-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link to google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Guest</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- link to JavaScript for menu-->
     <link rel="JavaScript" href="navigation.js">
-      <!-- link to style-->
+    <!-- link to style-->
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <nav>
-  <!-- A navigation menu that collapses into a responsive mobile-friendly menu (such as a
-  “hamburger” menu) -->
+    <!-- A navigation menu that collapses into a responsive mobile-friendly menu (such as a
+    “hamburger” menu) -->
+    <!-- Top Navigation Menu https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+    <div class="topnav" id="navigate">
+      <a href="index.html">Home</a>
+      <a href="gold_tree.html">Gold Tree</a>
+      <a href="dog.html">Dog</a>
+      <a href="guest.html" class="active">Guest</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+    </div>
   </nav>
-  <div class="pageTitle">
-    <h1>The Guest</h1>
-  </div>
-  <!-- Use CSS Grid to rearrange 2 or more content areas on your page as the screen
-  changes sizes -->
-  <article class="">
-  <p>words and the image</p>
-  </article>
-  <aside class="">
-    <p></p>
-  </aside>
+  <div class="content-wrap">
+    <div class="pageTitle">
+      <h1>The Guest</h1>
+    </div>
+    <!-- Use CSS Grid to rearrange 2 or more content areas on your page as the screen
+    changes sizes -->
+    <div class="grid-container">
+      <article class="grid-item">
+      <p>words and the image</p>
+      </article>
+      <aside class="grid-item">
+      <p></p>
+      </aside>
+    </div><!-- end grid container-->
+  </div><!-- end content-wrap-->
   <footer>
   </footer>
+  <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("navigate");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 </html>
