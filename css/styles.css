@@ -42,6 +42,10 @@ a:hover {
 a:active {
   color: #F9AF1D;
 }
+.poemTitle {
+  font-weight: bold;
+  border-bottom: 1px solid #F9AF1D;
+}
 .content-wrap {
   max-width: 1200px;
   width: 85%;
@@ -142,18 +146,17 @@ to a two or more column */
          display: block;
          text-align: left;
        }
-       /* the fancy divider */
+       /* the fancy divider https://codepen.io/Oddgson/pen/VPrYbv */
        .divider-wrapper {
-      	padding-bottom: 90px;
+      	padding-bottom: 30px;
         }
         .divider {
         	position: relative;
-        	margin-top: 90px;
+        	margin-top: 30px;
         	height: 1px;
         }
 
-        .div-transparent:before
-        {
+        .div-transparent:before {
         	content: "";
         	position: absolute;
         	top: 0;
