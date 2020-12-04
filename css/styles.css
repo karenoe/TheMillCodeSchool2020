@@ -58,6 +58,7 @@ a:active {
 }
 .credits {
   font-size: 9px;
+  clear:both;
 }
 /* ----sections */
 header {
