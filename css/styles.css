@@ -101,6 +101,8 @@ footer a:hover, a:active {
 .topnav a:hover {
  background-color:  #605D07;
  color: #F9AF1D;
+ border-top: none;
+ border-bottom: none;
 }
 /* Add an active class to highlight the current page */
 .topnav a.active {
@@ -140,13 +142,19 @@ to a two or more column */
     display: none;
    }
    figure {
-
+    float:left;
+    width: 60%;
+   }
+   figure img{
+    max-width: 100%;
     width: 100%;
-
+    padding-right: 0px;
+    padding-bottom: 0px;
    }
    figcaption p{
     font-style: italic;
-    text-align:center;
+    font-size:90%;
+    clear: both;
    }
 }
 /* When the screen is less than 600 pixels wide, hide all navigation links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
