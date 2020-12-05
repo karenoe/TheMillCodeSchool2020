@@ -67,13 +67,24 @@ header {
   color: #F9911F;
   text-align: center;
 }
+footer {
+  background-color: #AA2903;
+  color: white;
+}
+footer a, a:visited {
+  color: #ffffff;
+  font-weight: bold;
+}
+footer a:hover, a:active {
+  color: #F9AF1D;
+  font-weight: bold;
+}
 /*--- Navigation---*/
-/* Add a black background color to the top navigation */
+/* Add a background color to the top navigation */
 .topnav {
  background-color: #F9AF1D;
  overflow: hidden;
 }
-
 /* Style the links inside the navigation bar */
 .topnav a {
  float: left;
@@ -84,24 +95,20 @@ header {
  text-decoration: none;
  font-size: 17px;
 }
-
 /* Change the color of links on hover */
 .topnav a:hover {
  background-color:  #605D07;
  color: #F9AF1D;
 }
-
 /* Add an active class to highlight the current page */
 .topnav a.active {
  background-color: #AA2903;
  color: white;
 }
-
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
  display: none;
 }
-
 /* ________________________
 Media Queries
 ________________________ */
@@ -131,10 +138,11 @@ to a two or more column */
       display: none;
    }
 }
-
 /* When the screen is less than 600 pixels wide, hide all navigation links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-       .topnav a:not(:first-child) {display: none;}
+       .topnav a:not(:first-child) {
+         display: none;
+       }
        .topnav a.icon {
          float: right;
          display: block;
@@ -143,7 +151,9 @@ to a two or more column */
          font-size: 60px;
        }
        /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-       .topnav.responsive {position: relative;}
+       .topnav.responsive {
+         position: relative;
+       }
        .topnav.responsive a.icon {
          position: absolute;
          right: 0;
@@ -163,7 +173,6 @@ to a two or more column */
         	margin-top: 30px;
         	height: 1px;
         }
-
         .div-transparent:before {
         	content: "";
         	position: absolute;
@@ -174,7 +183,6 @@ to a two or more column */
         	height: 1px;
         	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
         }
-
        .div-dot:after {
           content: "";
           position: absolute;
@@ -189,5 +197,4 @@ to a two or more column */
         	box-shadow: inset 0 0 0 2px white,
           					0 0 0 4px white;
           }
-
 }
