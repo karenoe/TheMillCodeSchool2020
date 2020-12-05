@@ -141,11 +141,12 @@ to a two or more column */
    }
    figure {
     float: left;
-    width: 90%;
+    width: 100%;
     clear: both;
    }
    figcaption p{
     font-style: italic;
+    text-align:center;
    }
 }
 /* When the screen is less than 600 pixels wide, hide all navigation links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
