@@ -140,9 +140,9 @@ to a two or more column */
     display: none;
    }
    figure {
-    float: left;
+
     width: 100%;
-    clear: both;
+
    }
    figcaption p{
     font-style: italic;
