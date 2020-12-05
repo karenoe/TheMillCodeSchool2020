@@ -70,6 +70,7 @@ header {
 footer {
   background-color: #AA2903;
   color: white;
+  text-align: center;
 }
 footer a, a:visited {
   color: #ffffff;
