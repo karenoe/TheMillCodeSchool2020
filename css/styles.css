@@ -69,17 +69,9 @@ header {
   text-align: center;
 }
 footer {
-  background-color: #AA2903;
-  color: white;
+  border-top: dotted 3px #AA2903;
+
   text-align: center;
-}
-footer a, a:visited {
-  color: #ffffff;
-  font-weight: bold;
-}
-footer a:hover, a:active {
-  color: #F9AF1D;
-  font-weight: bold;
 }
 /*--- Navigation---*/
 /* Add a background color to the top navigation */
